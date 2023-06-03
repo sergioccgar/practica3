@@ -57,23 +57,45 @@ existía un código de corrección de errores y bits redundantes en los códigos
    la pregunta 7, correspondiente a las variantes de códigos QR.
       
 3. ¿Cuál es el número máximo de caracteres que podemos almacenar en un código QR de tamaño 21x21?
-En un código versión 1 puede almacenar hasta 4296 caracteres alfanuméricos; se vio en la ayudantía del 25 de 
-abril y una búsqueda rápida confirma la información (sé que esto no es una investigación formal, pues habría
-que citar, pero, ehhhh... siguiente pregunta!):![](brave1.jpg)
+Según la página de [Thonky](https://www.thonky.com/qr-code-tutorial/character-capacities), esto varía dependiendo
+del tipo del nivel de corrección de errores. Para los niveles L, M, Q, H, se podrán almacenar hasta
+25, 20, 16 y 10 caracteres alfanuméricos, respectivamente.
 
 4. ¿Cuál es el número máximo de caracteres que podemos almacenar en un código QR de tamaño
 177*177?
+Según la página de [Thonky](https://www.thonky.com/qr-code-tutorial/character-capacities), esto varía dependiendo
+del tipo del nivel de corrección de errores. Para los niveles L, M, Q, H, se podrán almacenar hasta
+4296, 3391, 2420 y 1852 caracteres alfanuméricos, respectivamente.
+
 5. ¿Por qué es posible sobreponer logos o imágenes en el código QR?
+Porque podemos usar un nivel de corrección, preferentemente Q o H, que permitirá que aún puedan
+ser escaneados incluso si un 25% o 30% de su superficie está cubierta o "corrupta". Podemos pensar en
+las imágenes superpuestas como "ruido" y el nivel de corrección será el algoritmo que nos permita
+recuperar la información del código QR a pesar de la presencia de dicho "ruido".
+
 6. ¿Cuáles son los valores de:
    1. Nivel de corrección
+   Según la página de [Thonky](https://www.thonky.com/qr-code-tutorial/format-version-information#the-error-correction-bits)
+   tenemos los siguientes valores:
+
+   |Nivel de corrección| Valor (en bits) |
+   |:---:|:---:|
+   |L|       01        |
+   |M|       00        |
+   |Q|       11        |
+   |H|       10        |
+
    2. Máscara
    
    para el siguiente QR?
+
    ![](qr.jpg)
 7. Menciona al menos 5 variantes (y adjunta imágen) de códigos QR.
 8. El siguiente código QR se le ha eliminado información importante, pero sabiendo que tenía la máscara
 010 (3) aplica la máscara para sacar el mensaje oculto que guarda, leyendo de la misma forma en la que
-se escribe. ![](qr2.jpg)
+se escribe.
+
+![](qr2.jpg)
 9. Si podemos guardar cualquier tipo de informacion, podemos guardar fotografías o videos dentro de un
 QR?
 10. ¿Por qué los códigos QR pueden ser peligrosos?
