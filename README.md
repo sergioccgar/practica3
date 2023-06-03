@@ -107,7 +107,9 @@ por la compañía ID Matriz en 1987:
 8. El siguiente código QR se le ha eliminado información importante, pero sabiendo que tenía la máscara
 010 (3) aplica la máscara para sacar el mensaje oculto que guarda, leyendo de la misma forma en la que
 se escribe.
+![](qr2.jpg)
 ...
+
 El mensaje... es... "cheems"...
 Procedimiento:
 - Las 4 celdas de la esquina inferior derecha indican que el encoding es de byte.
@@ -117,7 +119,6 @@ Procedimiento:
 ![](hm.jpg)
 ![](hm2.jpg)
 
-![](qr2.jpg)
 9. Si podemos guardar cualquier tipo de informacion, podemos guardar fotografías o videos dentro de un
 QR?
 Sí, es posible. Sin embargo, dadas las limitaciones de almacenamiento de los códigos QR, el tamaño de las
