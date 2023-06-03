@@ -148,7 +148,7 @@ Los códigos Hamming, Barcode, Aztec Code, Matrix Code y Quick Response (QR) son
        - Quick Response (QR): Es un tipo de código bidimensional que utiliza una matriz de módulos cuadrados para almacenar información. Los códigos QR se utilizan ampliamente en marketing, publicidad y aplicaciones comerciales debido a su capacidad para almacenar varios tipos de datos, como texto, URL, contactos, ubicaciones y más. También tienen una mayor capacidad de almacenamiento en comparación con otros códigos bidimensionales.
 
 12. ¿Algún día se nos acabarán las posibles combinaciones de QR? ¿Cuándo?
-Vi este (video)[https://www.youtube.com/watch?v=RFLx7AGo5u8]... basándome en él, escribo lo siguiente, que es un parafraseo
+Vi este [video](https://www.youtube.com/watch?v=RFLx7AGo5u8)... basándome en él, escribo lo siguiente, que es un parafraseo
 de lo que menciona el chico del video:
 
 Teóricamente, dado que tenemos un número finito de celdas en en los códigos QR, tendríamos un número
