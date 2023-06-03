@@ -75,6 +75,7 @@ recuperar la información del código QR a pesar de la presencia de dicho "ruido
 
 6. ¿Cuáles son los valores de:
    1. Nivel de corrección
+   
    Según la página de [Thonky](https://www.thonky.com/qr-code-tutorial/format-version-information#the-error-correction-bits)
    tenemos los siguientes valores:
    
